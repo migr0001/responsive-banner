@@ -7,6 +7,7 @@ section {
   background-color: #495562;
   color: #fff;
   font-family: "Georgia", sans-serif;
+  max-height: 500px;
 }
 
 .btn {
@@ -15,13 +16,20 @@ section {
   color: #fff;
 }
 
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 60em) {
 
-  footer {
-    cursor: pointer;
-    outline: none;
-    text-align: center;
-    display: block;
+  main {
+    position: relative;
+  }
+
+  .btn {
+    float: right;
+  }
+
+  section {
+    position: absolute;
+    background: rgba(73, 85, 98, .9);
+    top: 69%;
   }
 
 }
