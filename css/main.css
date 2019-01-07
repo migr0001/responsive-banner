@@ -1,0 +1,27 @@
+html {
+  color: #fff;
+  font-family: "Georgia", sans-serif;
+}
+
+section {
+  background-color: #495562;
+  color: #fff;
+  font-family: "Georgia", sans-serif;
+}
+
+.btn {
+  background-color: #495562;
+  border-color: #97a49b;
+  color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  footer {
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    display: block;
+  }
+
+}
