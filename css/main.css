@@ -1,19 +1,40 @@
 html {
   color: #fff;
-  font-family: "Georgia", sans-serif;
+  font-family: Georgia, serif;
 }
 
 section {
   background-color: #495562;
   color: #fff;
-  font-family: "Georgia", sans-serif;
+}
+
+h1 {
+  padding-bottom: 7px;
+}
+
+.banner {
   max-height: 500px;
+  object-fit: cover;
 }
 
 .btn {
-  background-color: #495562;
   border-color: #97a49b;
   color: #fff;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #495562;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .btn {
+    float: right;
+    margin-top: 3em;
+    border-color: #efefef;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -24,12 +45,24 @@ section {
 
   .btn {
     float: right;
+    margin-top: 3em;
+    border-color: #efefef;
   }
 
   section {
     position: absolute;
-    background: rgba(73, 85, 98, .9);
-    top: 69%;
+    top: 57%;
+    bottom: 0;
+    opacity: .4;
+    background-image: linear-gradient(to top, rgba(73, 85, 98, .9), rgba(0, 0, 0, 0));
+  }
+
+  p {
+    padding-right: .5em;
+  }
+
+  h1 {
+    padding-bottom: 0;
   }
 
 }
